@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'GolosTextWebVF';
+    src:
+    url(Fonts/Golos-Text_Regular.woff2) format('woff2'),
+    url(Fonts/Golos-Text_Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GolosTextWebBold';
+    src:
+    url(Fonts/Golos-Text_Bold.woff2) format('woff2'),
+    url(Fonts/Golos-Text_Bold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GolosTextWebMedium';
+    src:
+    url(Fonts/Golos-Text_Medium.woff2) format('woff2'),
+    url(Fonts/Golos-Text_Medium.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.page {
+    width: 938px;
+    margin: 0 auto; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 29px;
+}
+
+.header_menu {
+    display: flex;
+}
+
+.header_list {
+    display: flex;
+    list-style: none;
+    gap: 23px;
+    margin: 0;
+    padding: 0;
+    font-family: 'GolosTextWebVF';
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.main {
+    margin-top: 23px;
+    padding: 56px 48px 0px;
+    background-color: #F9F9F9;
+}
+
+.content_image {
+    display: block;
+    margin: 54px auto 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 47px;
+    padding-bottom: 47px;
+}
+
+.footer_list {
+    display: flex;
+    list-style: none;
+    gap: 23px;
+    margin: 0;
+    padding: 0;
+    font-family: 'GolosTextWebVF';
+    font-size: 19px;
+    line-height: 19px;
+}
+
+.footer_icons {
+    display: flex;
+    list-style: none;
+    gap: 7px;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-family: 'GolosTextWebBold';
+    font-size: 22px;
+    line-height: 22px;  
+}
+
+.content_title {
+    width: 711px;
+    margin: 0;
+    padding: 0;
+    font-family: 'GolosTextWebBold';
+    font-size: 142px;
+    line-height: 124px;
+    margin-left: -.06em;
+    color: #01A3FF;
+}
+
+.content_text {
+    width: 711px;
+    margin: 0;
+    padding: 0;
+    margin-top: 42px;
+    font-family: 'GolosTextWebMedium';
+    font-size: 32px;
+    line-height: 37px;
+}
